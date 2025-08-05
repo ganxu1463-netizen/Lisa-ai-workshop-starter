@@ -45,7 +45,7 @@
         你的用戶名.github.io
         ```
     *   **請務必確保這裡的 `你的用戶名` 和你的 GitHub 用戶名一字不差，並且嚴格遵守 `用戶名.github.io` 這個格式。**
-    *   例如，如果你的用戶名是 `racelarho`，那麼倉庫名就必須是 `racelarho.github.io`。
+    *   例如，如果你的用戶名是 `moonlight`，那麼倉庫名就必須是 `moonlight.github.io`。
 
 3.  **確認修改:**
     *   修改完畢後，點擊旁邊的 **"Rename"** 按鈕。
