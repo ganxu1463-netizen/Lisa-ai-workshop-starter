@@ -1,6 +1,6 @@
 # AI for Web Programming Workshop Template
 
-Welcome to the official starter template for the AI for Web Programming workshop, hosted by Racelar Ho. This repository contains a complete, functional portfolio website that will serve as our foundation for exploring AI-assisted development.
+Welcome to the official starter template for the AI for Web Programming workshop. This repository contains a complete, functional portfolio website that will serve as our foundation for exploring AI-assisted development.
 
 ## About This Template
 
@@ -15,15 +15,13 @@ This is a static website built with standard web technologies. The goal of the w
 
 ## How to Use This Template
 
-Please follow these steps to get started.
-
 ### 1. Get the Code
 
 You can either download the code as a ZIP file or clone the repository using Git.
 
 *   **To Download:** Click the green `<> Code` button on this page, then select `Download ZIP`. Unzip the file to a location on your computer, such as your Desktop.
 *   **To Clone (Recommended):** If you have Git installed, use the following command in your terminal or command prompt:
-    ```bash
+    ```
     git clone https://github.com/[Your-GitHub-Username]/ivas-ai-workshop-template.git
     ```
 
@@ -50,5 +48,4 @@ The primary activity of our workshop will be to modify this template using promp
 
 ---
 
-The goal is to learn the process of creative dialogue with an AI to bring your artistic vision to life on the web. I look forward to building with you all.
 
