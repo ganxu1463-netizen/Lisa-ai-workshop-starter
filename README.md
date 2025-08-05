@@ -1,6 +1,6 @@
 # AI for Web Programming Workshop Template
 
-Welcome to the official starter template for the AI for Web Programming workshop. This repository contains a complete, functional portfolio website that will serve as our foundation for exploring AI-assisted development.
+Welcome to the starter template for the AI for Web Programming workshop. This repository contains a complete, functional portfolio website that will serve as our foundation for exploring AI-assisted development.
 
 ## About This Template
 
