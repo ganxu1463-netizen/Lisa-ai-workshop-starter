@@ -52,4 +52,3 @@ The primary activity of our workshop will be to modify this template using promp
 
 The goal is to learn the process of creative dialogue with an AI to bring your artistic vision to life on the web. I look forward to building with you all.
 
-**Racelar Ho**
