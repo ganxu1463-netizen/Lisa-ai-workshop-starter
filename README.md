@@ -46,6 +46,6 @@ The primary activity of our workshop will be to modify this template using promp
 *   **Changing Styles:** We will ask the AI to provide new CSS rules to change colours, fonts, and layouts in the `.css` file.
 *   **Adding Interactivity:** We will ask the AI to write new JavaScript functions to add creative effects, such as making elements react to mouse movements or clicks.
 
----
+
 
 
