@@ -2,8 +2,6 @@
 
 這份文檔是為我們「AI 協同網頁開發」工作坊準備的 Git 基礎教程。
 
-在開始編寫任何代碼之前，我們需要先學會使用 `Git`。請不要被它嚇到，你可以把 `Git` 想像成一個專為代碼設計的、功能極其強大的「遊戲存檔」系統。它不僅能讓你隨時保存你的進度（「提交」），還能讓你回到過去的任何一個存檔點，更重要的是，它也是所有開發者進行團隊協作的基礎。
-
 這份教程將只專注於我們在工作坊中必須用到的幾個核心指令。
 
 ---
@@ -31,13 +29,13 @@
 **作用:** 在你第一次使用 Git 時，設置你的用戶名和郵箱。這會被記錄在你每一次的「提交」中，告訴別人是誰做了這次修改。
 
 **用法:**
-```bash
+```
 git config --global user.name "[你的名字]"
 git config --global user.email "[你的郵箱地址]"
 ```
 
 **範例:**
-```bash
+```
 git config --global user.name "Racelar Ho"
 git config --global user.email "racelar.ho@example.com"
 ```
@@ -48,12 +46,12 @@ git config --global user.email "racelar.ho@example.com"
 **作用:** 將一個遠程 GitHub 倉庫的完整副本下載到你的本地電腦上。這是你參與一個項目的第一步。
 
 **用法:**
-```bash
+```
 git clone [倉庫的HTTPS鏈接]
 ```
 
 **範例:**
-```bash
+```
 git clone https://github.com/racelar-ho/ivas-ai-workshop-template.git
 ```
 **備註:** 這個指令只在項目開始時使用一次。執行後，你會得到一個包含所有項目文件的文件夾。
@@ -63,7 +61,7 @@ git clone https://github.com/racelar-ho/ivas-ai-workshop-template.git
 **作用:** 檢查你當前工作區和暫存區的狀態。這是你**最常用、也最重要的朋友**。它會告訴你哪些文件被修改了、哪些文件是新增的、哪些文件已經被放入暫存區。
 
 **用法:**
-```bash
+```
 git status
 ```
 **備註:** 在執行任何 `add` 或 `commit` 操作前，養成先用 `git status` 確認一下狀態的好習慣。
@@ -74,35 +72,40 @@ git status
 
 **用法:**
 *   添加某一個文件：
-    ```bash
+    ```
     git add [文件名]
     ```
 *   添加所有被修改或新增的文件（我們最常用的方式）：
-    ```bash
+    ```
     git add .
     ```
     (注意 `add` 和 `.` 之間有一個空格)
 
 **範例:**
-```bash
-# 添加 index.html 這個文件
-git add index.html
 
-# 添加所有當前文件夾下的變動
-git add .
-```
+*   添加 `index.html` 這個文件
+    ```
+    git add index.html
+    ```
+
+*   添加所有當前文件夾下的變動
+    ```
+    git add .
+    ```
+
 
 #### 5. `git commit` (提交到本地倉庫)
 
 **作用:** 將暫存區的所有內容創建一個新的、永久的快照（存檔點），並保存在本地倉庫中。這一步需要你附上一段簡潔明了的「提交信息」，描述你這次存檔做了什麼。
 
 **用法:**
-```bash
-git commit -m "[你的提交信息]"```
+    ```
+    git commit -m "[你的提交信息]"
+    ```
 
 **範例:**
-```bash
-git commit -m "Update the main headline on the homepage"
+```
+git  -m "Update the main headline on the homepage"
 git commit -m "Fix: correct the link in the footer"
 git commit -m "Feature: add a new particle animation background"
 ```
@@ -113,7 +116,7 @@ git commit -m "Feature: add a new particle animation background"
 **作用:** 將你本地倉庫的所有新提交（你本地的所有新「存檔」）上傳到 GitHub 的遠程倉庫中。這樣，你的隊友才能看到你的修改，你的修改也才算真正地備份到了雲端。
 
 **用法:**
-```bash
+```
 git push origin main
 ```
 **備註:** `origin` 是你遠程倉庫的默認名字，`main` 是主分支的名字。在我們的 workshop 中，你只需要記住這個固定用法即可。
@@ -123,7 +126,7 @@ git push origin main
 **作用:** 檢查遠程 GitHub 倉庫是否有你本地沒有的更新（比如隊友 `push` 的代碼），並把它們下載下來與你的本地工作區合併。
 
 **用法:**
-```bash
+```
 git pull origin main
 ```
 **備註:** 在團隊協作中，每次開始工作前先 `git pull` 一下是一個好習慣，可以確保你總是在最新的代碼基礎上進行修改。在我們這次的個人工作坊中，你可能用不到它，但這是 Git 核心流程的一部分。
