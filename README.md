@@ -37,7 +37,7 @@ This repository is structured as a complete learning package. It includes:
 
 ### 🎯 Workshop Objectives
 
-By the end of this workshop, participants will have learned to:
+By the end of this workshop, you will have learned to:
 
 *   Establish a local development environment using professional-grade tools like Miniconda and Git.
 *   Master a version control workflow including forking, cloning, committing, and pushing to a GitHub repository.
@@ -79,7 +79,7 @@ The workshop is structured to guide you through a complete development cycle fro
 
 ### 🎯 工作坊目標
 
-在工作坊結束時，學員將學習到：
+在工作坊結束時，你將學習到：
 
 *   使用 Miniconda 和 Git 等專業級工具建立本地開發環境。
 *   掌握一套包括 Forking、Cloning、Committing 和 Pushing 在內的版本控制工作流。
