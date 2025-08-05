@@ -58,7 +58,6 @@ The workshop is structured to guide you through a complete development cycle fro
 5.  **Save and Version Your Work:** Use the `add`, `commit`, and `push` commands from the `GIT_TUTORIAL.md` to save your progress to your GitHub repository.
 6.  **Deploy Your Website:** Follow the final steps in `DEPLOYMENT_TUTORIAL.md` to activate GitHub Pages and publish your creation to the web.
 
-This structured process is designed to provide a complete, from-the-ground-up experience in modern, creative web development.
 
 ---
 
@@ -101,4 +100,4 @@ This structured process is designed to provide a complete, from-the-ground-up ex
 5.  **保存你的工作並進行版本控制：** 請使用 `GIT_TUTORIAL.md` 中介紹的 `add`, `commit`, `push` 指令，將你的進度保存到你自己的 GitHub 倉庫。
 6.  **部署你的網站：** 請遵循 `DEPLOYMENT_TUTORIAL.md` 中的最後步驟，激活 GitHub Pages，將你的作品發佈到互聯網上。
 
-這個結構化的流程旨在提供一個從零到一的、完整的現代創意網頁開發體驗。
+
