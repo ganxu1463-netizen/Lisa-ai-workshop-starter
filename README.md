@@ -4,6 +4,8 @@ Welcome to the official repository for the AI for Web Programming workshop. This
 
 歡迎來到 AI 協同網頁開發工作坊的官方倉庫。本文件是我們課程的核心指南。
 
+✨[Final Example Website 最終範例網頁](https://lunamadness.github.io/rae-ai-workshop-starter/)✨
+
 ---
 
 ### **Table of Contents / 目錄**
