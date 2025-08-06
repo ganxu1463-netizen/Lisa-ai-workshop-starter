@@ -3224,6 +3224,23 @@ form input.margin-l, form textarea.margin-l {
   opacity: 1;
 }
 
-/* ------------------------------------------------*/
-/* Gallery End */
+.headline__title {
+    background: linear-gradient(to right, #5500ff, #abffad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* 副標題漸變色 */
+.headline__subtitle {
+    background: linear-gradient(to right, #FF00FF, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* 確保打字動畫的光標維持可見的白色 */
+.headline__subtitle .typed-cursor {
+    color: #ffffff;
+}
 /* ------------------------------------------------*/
